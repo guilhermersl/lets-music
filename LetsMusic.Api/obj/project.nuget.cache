@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6jNdo2kwgeEELOF5sqJzAJd+WltKJ5ZULGbY+E4EG+iicIbZJjoHs66X/FD9n7Bn/c4mxWyE8tn93Czt2BeXUg==",
+  "dgSpecHash": "eKoG+f7tWB5iTKg70v434esAltzUwFFxTDpm88bFeWs/DKW7cVRURRMecIV8/gkX6NTcITYk352fH2MbXQZr2w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\guilherme.santos\\Source\\Repos\\lets-music\\LetsMusic.Api\\LetsMusic.Api.csproj",
+  "projectFilePath": "C:\\Users\\guilherme.santos\\source\\repos\\lets-music\\LetsMusic.Api\\LetsMusic.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\guilherme.santos\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\guilherme.santos\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

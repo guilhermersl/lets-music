@@ -814,11 +814,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\guilherme.santos\\Source\\Repos\\lets-music\\LetsMusic.Application\\LetsMusic.Application.csproj",
+      "projectUniqueName": "C:\\Users\\guilherme.santos\\source\\repos\\lets-music\\LetsMusic.Application\\LetsMusic.Application.csproj",
       "projectName": "LetsMusic.Application",
-      "projectPath": "C:\\Users\\guilherme.santos\\Source\\Repos\\lets-music\\LetsMusic.Application\\LetsMusic.Application.csproj",
+      "projectPath": "C:\\Users\\guilherme.santos\\source\\repos\\lets-music\\LetsMusic.Application\\LetsMusic.Application.csproj",
       "packagesPath": "C:\\Users\\guilherme.santos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\guilherme.santos\\Source\\Repos\\lets-music\\LetsMusic.Application\\obj\\",
+      "outputPath": "C:\\Users\\guilherme.santos\\source\\repos\\lets-music\\LetsMusic.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -839,8 +839,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\guilherme.santos\\Source\\Repos\\lets-music\\LetsMusic.Domain\\LetsMusic.Domain.csproj": {
-              "projectPath": "C:\\Users\\guilherme.santos\\Source\\Repos\\lets-music\\LetsMusic.Domain\\LetsMusic.Domain.csproj"
+            "C:\\Users\\guilherme.santos\\source\\repos\\lets-music\\LetsMusic.Domain\\LetsMusic.Domain.csproj": {
+              "projectPath": "C:\\Users\\guilherme.santos\\source\\repos\\lets-music\\LetsMusic.Domain\\LetsMusic.Domain.csproj"
             }
           }
         }

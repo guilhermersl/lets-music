@@ -8526,11 +8526,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\guilherme.santos\\Source\\Repos\\lets-music\\LetsMusic.Tests\\LetsMusic.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\guilherme.santos\\source\\repos\\lets-music\\LetsMusic.Tests\\LetsMusic.Tests.csproj",
       "projectName": "LetsMusic.Tests",
-      "projectPath": "C:\\Users\\guilherme.santos\\Source\\Repos\\lets-music\\LetsMusic.Tests\\LetsMusic.Tests.csproj",
+      "projectPath": "C:\\Users\\guilherme.santos\\source\\repos\\lets-music\\LetsMusic.Tests\\LetsMusic.Tests.csproj",
       "packagesPath": "C:\\Users\\guilherme.santos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\guilherme.santos\\Source\\Repos\\lets-music\\LetsMusic.Tests\\obj\\",
+      "outputPath": "C:\\Users\\guilherme.santos\\source\\repos\\lets-music\\LetsMusic.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -8551,20 +8551,20 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\guilherme.santos\\Source\\Repos\\lets-music\\LetsMusic.Api\\LetsMusic.Api.csproj": {
-              "projectPath": "C:\\Users\\guilherme.santos\\Source\\Repos\\lets-music\\LetsMusic.Api\\LetsMusic.Api.csproj"
+            "C:\\Users\\guilherme.santos\\source\\repos\\lets-music\\LetsMusic.Api\\LetsMusic.Api.csproj": {
+              "projectPath": "C:\\Users\\guilherme.santos\\source\\repos\\lets-music\\LetsMusic.Api\\LetsMusic.Api.csproj"
             },
-            "C:\\Users\\guilherme.santos\\Source\\Repos\\lets-music\\LetsMusic.Application\\LetsMusic.Application.csproj": {
-              "projectPath": "C:\\Users\\guilherme.santos\\Source\\Repos\\lets-music\\LetsMusic.Application\\LetsMusic.Application.csproj"
+            "C:\\Users\\guilherme.santos\\source\\repos\\lets-music\\LetsMusic.Application\\LetsMusic.Application.csproj": {
+              "projectPath": "C:\\Users\\guilherme.santos\\source\\repos\\lets-music\\LetsMusic.Application\\LetsMusic.Application.csproj"
             },
-            "C:\\Users\\guilherme.santos\\Source\\Repos\\lets-music\\LetsMusic.CrossCutting\\LetsMusic.CrossCutting.csproj": {
-              "projectPath": "C:\\Users\\guilherme.santos\\Source\\Repos\\lets-music\\LetsMusic.CrossCutting\\LetsMusic.CrossCutting.csproj"
+            "C:\\Users\\guilherme.santos\\source\\repos\\lets-music\\LetsMusic.CrossCutting\\LetsMusic.CrossCutting.csproj": {
+              "projectPath": "C:\\Users\\guilherme.santos\\source\\repos\\lets-music\\LetsMusic.CrossCutting\\LetsMusic.CrossCutting.csproj"
             },
-            "C:\\Users\\guilherme.santos\\Source\\Repos\\lets-music\\LetsMusic.Domain\\LetsMusic.Domain.csproj": {
-              "projectPath": "C:\\Users\\guilherme.santos\\Source\\Repos\\lets-music\\LetsMusic.Domain\\LetsMusic.Domain.csproj"
+            "C:\\Users\\guilherme.santos\\source\\repos\\lets-music\\LetsMusic.Domain\\LetsMusic.Domain.csproj": {
+              "projectPath": "C:\\Users\\guilherme.santos\\source\\repos\\lets-music\\LetsMusic.Domain\\LetsMusic.Domain.csproj"
             },
-            "C:\\Users\\guilherme.santos\\Source\\Repos\\lets-music\\LetsMusic.Repository\\LetsMusic.Data.csproj": {
-              "projectPath": "C:\\Users\\guilherme.santos\\Source\\Repos\\lets-music\\LetsMusic.Repository\\LetsMusic.Data.csproj"
+            "C:\\Users\\guilherme.santos\\source\\repos\\lets-music\\LetsMusic.Repository\\LetsMusic.Data.csproj": {
+              "projectPath": "C:\\Users\\guilherme.santos\\source\\repos\\lets-music\\LetsMusic.Repository\\LetsMusic.Data.csproj"
             }
           }
         }
