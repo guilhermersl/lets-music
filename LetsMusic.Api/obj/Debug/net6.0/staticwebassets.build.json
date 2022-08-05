@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "WEF7AgXshCjrs4SG/wkTh/efE6FJm7luhfQjxEHUvVU=",
+  "Source": "LetsMusic.Api",
+  "BasePath": "_content/LetsMusic.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
