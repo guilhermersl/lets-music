@@ -298,3 +298,12 @@ C:\Users\guilherme.leitao\Source\Repos\lets-music\LetsMusic.Api\obj\Debug\net6.0
 C:\Users\guilherme.leitao\Source\Repos\lets-music\LetsMusic.Api\obj\Debug\net6.0\LetsMusic.Api.pdb
 C:\Users\guilherme.leitao\Source\Repos\lets-music\LetsMusic.Api\obj\Debug\net6.0\LetsMusic.Api.genruntimeconfig.cache
 C:\Users\guilherme.leitao\Source\Repos\lets-music\LetsMusic.Api\obj\Debug\net6.0\ref\LetsMusic.Api.dll
+C:\Users\guilherme.leitao\Source\Repos\lets-music\LetsMusic.Api\bin\Debug\net6.0\Azure.Core.dll
+C:\Users\guilherme.leitao\Source\Repos\lets-music\LetsMusic.Api\bin\Debug\net6.0\Azure.Storage.Blobs.dll
+C:\Users\guilherme.leitao\Source\Repos\lets-music\LetsMusic.Api\bin\Debug\net6.0\Azure.Storage.Common.dll
+C:\Users\guilherme.leitao\Source\Repos\lets-music\LetsMusic.Api\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\guilherme.leitao\Source\Repos\lets-music\LetsMusic.Api\bin\Debug\net6.0\System.IO.Hashing.dll
+C:\Users\guilherme.leitao\Source\Repos\lets-music\LetsMusic.Api\bin\Debug\net6.0\System.Memory.Data.dll
+C:\Users\guilherme.leitao\Source\Repos\lets-music\LetsMusic.Api\bin\Debug\net6.0\System.Net.Http.Formatting.dll
+C:\Users\guilherme.leitao\Source\Repos\lets-music\LetsMusic.Api\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\guilherme.leitao\Source\Repos\lets-music\LetsMusic.Api\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll

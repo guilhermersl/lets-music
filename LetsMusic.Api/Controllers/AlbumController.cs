@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using LetsMusic.Application.AlbumContext.Dto;
 using LetsMusic.Application.AlbumContext.Handler.Command;
 using LetsMusic.Application.AlbumContext.Handler.Query;
+using LetsMusic.Data;
 
 namespace LetsMusic.Api.Controllers
 {
@@ -11,10 +12,14 @@ namespace LetsMusic.Api.Controllers
     public class AlbumController : ControllerBase
     {
         private readonly IMediator _mediator;
+        //private readonly IHttpClientFactory _httpClientFactory;
+        //private readonly IAzureBlobStorage _storage;
 
-        public AlbumController(IMediator mediator)
+        public AlbumController(IMediator mediator/*, IHttpClientFactory httpClientFactory, IAzureBlobStorage storage*/)
         {
             _mediator = mediator;
+            //_httpClientFactory = httpClientFactory;
+            //_storage = storage;
         }
 
         [HttpGet]

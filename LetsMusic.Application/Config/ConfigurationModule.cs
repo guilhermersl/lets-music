@@ -2,6 +2,8 @@
 using Microsoft.Extensions.DependencyInjection;
 using LetsMusic.Application.AlbumContext.Service;
 using LetsMusic.Application.ContaContext.Service;
+using LetsMusic.Data;
+using System.Net.Http;
 
 namespace LetsMusic.Application.Config
 {
@@ -18,6 +20,8 @@ namespace LetsMusic.Application.Config
             services.AddScoped<IMusicaService, MusicaService>();
             services.AddScoped<IPlayListService, PlayListService>();
             services.AddScoped<IUsuarioService, UsuarioService>();
+            services.AddHttpClient();
+            services.AddScoped<IAzureBlobStorage, AzureBlobStorage>();
 
             return services;
         }

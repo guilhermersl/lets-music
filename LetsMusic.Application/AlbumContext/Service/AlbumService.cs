@@ -1,8 +1,10 @@
 ﻿using AutoMapper;
 using LetsMusic.Application.AlbumContext.Dto;
 using LetsMusic.CrossCutting.Exceptions;
+using LetsMusic.Data;
 using LetsMusic.Domain.AlbumContext;
 using LetsMusic.Domain.AlbumContext.Repository;
+using System.Net.Http;
 
 namespace LetsMusic.Application.AlbumContext.Service
 {
@@ -10,16 +12,33 @@ namespace LetsMusic.Application.AlbumContext.Service
     {
         private readonly IAlbumRepository _albumRepository;
         private readonly IMapper _mapper;
+        private readonly IHttpClientFactory _httpClientFactory;
+        private readonly IAzureBlobStorage _storage;
 
-        public AlbumService(IAlbumRepository albumRepository, IMapper mapper)
+        public AlbumService(IAlbumRepository albumRepository, IMapper mapper, IHttpClientFactory httpClientFactory, IAzureBlobStorage storage)
         {
             _albumRepository = albumRepository;
             _mapper = mapper;
+            _httpClientFactory = httpClientFactory;
+            _storage = storage;
         }
 
         public async Task<AlbumOutputDto> Create(AlbumInputDto dto)
         {
             var album = _mapper.Map<Album>(dto);
+
+            //Download de arquivo
+            HttpClient client = _httpClientFactory.CreateClient();
+            using var response = await client.GetAsync(album.LinkFoto);
+
+            if (response.IsSuccessStatusCode)
+            {
+                using var stream = await response.Content.ReadAsStreamAsync();
+                var fileName = $"{Guid.NewGuid()}.jpg";
+                var pathStorage = await _storage.UploadFile(fileName, stream);
+                album.LinkFoto = pathStorage;
+            }
+            //
 
             await _albumRepository.Save(album);
 

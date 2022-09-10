@@ -2,6 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using LetsMusic.Api.Filters;
 using LetsMusic.Application.Config;
 using LetsMusic.Data.Config;
+using LetsMusic.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 

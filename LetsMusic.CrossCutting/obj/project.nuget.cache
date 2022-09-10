@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hnrzj0BniKPVYvzn4LYV0gPlDRcpedEjbONl+LllWBV8XlwAsav3KWocOi7R8xkhyRH7EgyWZcBzhmn8VU45cg==",
+  "dgSpecHash": "0vM0i3oOgvfUmeVJbvEd+FRucKVKT7iXbDoa298LxZf513lLLgg3c10+PBEongv3fTgb87340Fio6t2vPEJa1g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\guilherme.leitao\\Source\\Repos\\lets-music\\LetsMusic.CrossCutting\\LetsMusic.CrossCutting.csproj",
+  "projectFilePath": "C:\\Users\\guilherme.leitao\\source\\repos\\lets-music\\LetsMusic.CrossCutting\\LetsMusic.CrossCutting.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\guilherme.leitao\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.6\\microsoft.entityframeworkcore.6.0.6.nupkg.sha512",
     "C:\\Users\\guilherme.leitao\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.6\\microsoft.entityframeworkcore.abstractions.6.0.6.nupkg.sha512",

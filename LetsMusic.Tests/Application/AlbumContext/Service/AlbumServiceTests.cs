@@ -6,6 +6,7 @@ using LetsMusic.Application.AlbumContext.Service;
 using LetsMusic.CrossCutting.Exceptions;
 using LetsMusic.Domain.AlbumContext;
 using LetsMusic.Domain.AlbumContext.Repository;
+using LetsMusic.Data;
 
 namespace LetsMusic.Tests.Application.AlbumContext.Service
 {
@@ -13,13 +14,15 @@ namespace LetsMusic.Tests.Application.AlbumContext.Service
     {
         private Mock<IAlbumRepository> _repositoryMock;
         private Mock<IMapper> _mapperMock;
+        private Mock<IHttpClientFactory> _httpClientFactory;
+        private Mock<IAzureBlobStorage> _storage;
         private AlbumService _service;
 
         public AlbumServiceTests()
         {
             _repositoryMock = new Mock<IAlbumRepository>();
             _mapperMock = new Mock<IMapper>();
-            _service = new AlbumService(_repositoryMock.Object, _mapperMock.Object);
+            _service = new AlbumService(_repositoryMock.Object, _mapperMock.Object, _httpClientFactory.Object, _storage.Object);
         }
 
         [Fact]

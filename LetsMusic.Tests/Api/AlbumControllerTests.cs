@@ -9,18 +9,21 @@ using LetsMusic.Application.AlbumContext.Handler.Query;
 using LetsMusic.CrossCutting.Exceptions;
 using LetsMusic.Domain.AlbumContext;
 using LetsMusic.Tests.Application.AlbumContext;
+using LetsMusic.Data;
 
 namespace LetsMusic.Tests.Api
 {
     public class AlbumControllerTests
     {
         private Mock<IMediator> _mediatorMock;
+        //private Mock<IHttpClientFactory> _httpClientFactory;
+        //private Mock<IAzureBlobStorage> _storage;
         private AlbumController _controller;
 
         public AlbumControllerTests()
         {
             _mediatorMock = new Mock<IMediator>();
-            _controller = new AlbumController(_mediatorMock.Object);
+            _controller = new AlbumController(_mediatorMock.Object/*, _httpClientFactory.Object, _storage.Object*/);
         }
 
         [Fact]
