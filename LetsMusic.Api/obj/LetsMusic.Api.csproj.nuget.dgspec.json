@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\guilherme.leitao\\source\\repos\\lets-music\\LetsMusic.Api\\LetsMusic.Api.csproj": {}
+    "C:\\Users\\guilh\\Source\\Repos\\lets-music2\\LetsMusic.Api\\LetsMusic.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\guilherme.leitao\\source\\repos\\lets-music\\LetsMusic.Api\\LetsMusic.Api.csproj": {
+    "C:\\Users\\guilh\\Source\\Repos\\lets-music2\\LetsMusic.Api\\LetsMusic.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\guilherme.leitao\\source\\repos\\lets-music\\LetsMusic.Api\\LetsMusic.Api.csproj",
+        "projectUniqueName": "C:\\Users\\guilh\\Source\\Repos\\lets-music2\\LetsMusic.Api\\LetsMusic.Api.csproj",
         "projectName": "LetsMusic.Api",
-        "projectPath": "C:\\Users\\guilherme.leitao\\source\\repos\\lets-music\\LetsMusic.Api\\LetsMusic.Api.csproj",
-        "packagesPath": "C:\\Users\\guilherme.leitao\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\guilherme.leitao\\source\\repos\\lets-music\\LetsMusic.Api\\obj\\",
+        "projectPath": "C:\\Users\\guilh\\Source\\Repos\\lets-music2\\LetsMusic.Api\\LetsMusic.Api.csproj",
+        "packagesPath": "C:\\Users\\guilh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\guilh\\Source\\Repos\\lets-music2\\LetsMusic.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\guilherme.leitao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\guilh\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,11 +32,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\guilherme.leitao\\source\\repos\\lets-music\\LetsMusic.Application\\LetsMusic.Application.csproj": {
-                "projectPath": "C:\\Users\\guilherme.leitao\\source\\repos\\lets-music\\LetsMusic.Application\\LetsMusic.Application.csproj"
+              "C:\\Users\\guilh\\Source\\Repos\\lets-music2\\LetsMusic.Application\\LetsMusic.Application.csproj": {
+                "projectPath": "C:\\Users\\guilh\\Source\\Repos\\lets-music2\\LetsMusic.Application\\LetsMusic.Application.csproj"
               },
-              "C:\\Users\\guilherme.leitao\\source\\repos\\lets-music\\LetsMusic.Repository\\LetsMusic.Data.csproj": {
-                "projectPath": "C:\\Users\\guilherme.leitao\\source\\repos\\lets-music\\LetsMusic.Repository\\LetsMusic.Data.csproj"
+              "C:\\Users\\guilh\\Source\\Repos\\lets-music2\\LetsMusic.Repository\\LetsMusic.Data.csproj": {
+                "projectPath": "C:\\Users\\guilh\\Source\\Repos\\lets-music2\\LetsMusic.Repository\\LetsMusic.Data.csproj"
               }
             }
           }
@@ -54,6 +54,10 @@
             "Azure.Storage.Blobs": {
               "target": "Package",
               "version": "[12.13.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.9, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -80,7 +84,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -92,24 +97,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\guilherme.leitao\\source\\repos\\lets-music\\LetsMusic.Application\\LetsMusic.Application.csproj": {
+    "C:\\Users\\guilh\\Source\\Repos\\lets-music2\\LetsMusic.Application\\LetsMusic.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\guilherme.leitao\\source\\repos\\lets-music\\LetsMusic.Application\\LetsMusic.Application.csproj",
+        "projectUniqueName": "C:\\Users\\guilh\\Source\\Repos\\lets-music2\\LetsMusic.Application\\LetsMusic.Application.csproj",
         "projectName": "LetsMusic.Application",
-        "projectPath": "C:\\Users\\guilherme.leitao\\source\\repos\\lets-music\\LetsMusic.Application\\LetsMusic.Application.csproj",
-        "packagesPath": "C:\\Users\\guilherme.leitao\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\guilherme.leitao\\source\\repos\\lets-music\\LetsMusic.Application\\obj\\",
+        "projectPath": "C:\\Users\\guilh\\Source\\Repos\\lets-music2\\LetsMusic.Application\\LetsMusic.Application.csproj",
+        "packagesPath": "C:\\Users\\guilh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\guilh\\Source\\Repos\\lets-music2\\LetsMusic.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\guilherme.leitao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\guilh\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -124,11 +129,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\guilherme.leitao\\source\\repos\\lets-music\\LetsMusic.Domain\\LetsMusic.Domain.csproj": {
-                "projectPath": "C:\\Users\\guilherme.leitao\\source\\repos\\lets-music\\LetsMusic.Domain\\LetsMusic.Domain.csproj"
+              "C:\\Users\\guilh\\Source\\Repos\\lets-music2\\LetsMusic.Domain\\LetsMusic.Domain.csproj": {
+                "projectPath": "C:\\Users\\guilh\\Source\\Repos\\lets-music2\\LetsMusic.Domain\\LetsMusic.Domain.csproj"
               },
-              "C:\\Users\\guilherme.leitao\\source\\repos\\lets-music\\LetsMusic.Repository\\LetsMusic.Data.csproj": {
-                "projectPath": "C:\\Users\\guilherme.leitao\\source\\repos\\lets-music\\LetsMusic.Repository\\LetsMusic.Data.csproj"
+              "C:\\Users\\guilh\\Source\\Repos\\lets-music2\\LetsMusic.Repository\\LetsMusic.Data.csproj": {
+                "projectPath": "C:\\Users\\guilh\\Source\\Repos\\lets-music2\\LetsMusic.Repository\\LetsMusic.Data.csproj"
               }
             }
           }
@@ -174,7 +179,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -183,24 +189,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\guilherme.leitao\\source\\repos\\lets-music\\LetsMusic.CrossCutting\\LetsMusic.CrossCutting.csproj": {
+    "C:\\Users\\guilh\\Source\\Repos\\lets-music2\\LetsMusic.CrossCutting\\LetsMusic.CrossCutting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\guilherme.leitao\\source\\repos\\lets-music\\LetsMusic.CrossCutting\\LetsMusic.CrossCutting.csproj",
+        "projectUniqueName": "C:\\Users\\guilh\\Source\\Repos\\lets-music2\\LetsMusic.CrossCutting\\LetsMusic.CrossCutting.csproj",
         "projectName": "LetsMusic.CrossCutting",
-        "projectPath": "C:\\Users\\guilherme.leitao\\source\\repos\\lets-music\\LetsMusic.CrossCutting\\LetsMusic.CrossCutting.csproj",
-        "packagesPath": "C:\\Users\\guilherme.leitao\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\guilherme.leitao\\Source\\Repos\\lets-music\\LetsMusic.CrossCutting\\obj\\",
+        "projectPath": "C:\\Users\\guilh\\Source\\Repos\\lets-music2\\LetsMusic.CrossCutting\\LetsMusic.CrossCutting.csproj",
+        "packagesPath": "C:\\Users\\guilh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\guilh\\Source\\Repos\\lets-music2\\LetsMusic.CrossCutting\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\guilherme.leitao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\guilh\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -238,7 +244,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -247,24 +254,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\guilherme.leitao\\source\\repos\\lets-music\\LetsMusic.Domain\\LetsMusic.Domain.csproj": {
+    "C:\\Users\\guilh\\Source\\Repos\\lets-music2\\LetsMusic.Domain\\LetsMusic.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\guilherme.leitao\\source\\repos\\lets-music\\LetsMusic.Domain\\LetsMusic.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\guilh\\Source\\Repos\\lets-music2\\LetsMusic.Domain\\LetsMusic.Domain.csproj",
         "projectName": "LetsMusic.Domain",
-        "projectPath": "C:\\Users\\guilherme.leitao\\source\\repos\\lets-music\\LetsMusic.Domain\\LetsMusic.Domain.csproj",
-        "packagesPath": "C:\\Users\\guilherme.leitao\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\guilherme.leitao\\Source\\Repos\\lets-music\\LetsMusic.Domain\\obj\\",
+        "projectPath": "C:\\Users\\guilh\\Source\\Repos\\lets-music2\\LetsMusic.Domain\\LetsMusic.Domain.csproj",
+        "packagesPath": "C:\\Users\\guilh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\guilh\\Source\\Repos\\lets-music2\\LetsMusic.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\guilherme.leitao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\guilh\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -279,8 +286,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\guilherme.leitao\\source\\repos\\lets-music\\LetsMusic.CrossCutting\\LetsMusic.CrossCutting.csproj": {
-                "projectPath": "C:\\Users\\guilherme.leitao\\source\\repos\\lets-music\\LetsMusic.CrossCutting\\LetsMusic.CrossCutting.csproj"
+              "C:\\Users\\guilh\\Source\\Repos\\lets-music2\\LetsMusic.CrossCutting\\LetsMusic.CrossCutting.csproj": {
+                "projectPath": "C:\\Users\\guilh\\Source\\Repos\\lets-music2\\LetsMusic.CrossCutting\\LetsMusic.CrossCutting.csproj"
               }
             }
           }
@@ -306,7 +313,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -315,24 +323,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\guilherme.leitao\\source\\repos\\lets-music\\LetsMusic.Repository\\LetsMusic.Data.csproj": {
+    "C:\\Users\\guilh\\Source\\Repos\\lets-music2\\LetsMusic.Repository\\LetsMusic.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\guilherme.leitao\\source\\repos\\lets-music\\LetsMusic.Repository\\LetsMusic.Data.csproj",
+        "projectUniqueName": "C:\\Users\\guilh\\Source\\Repos\\lets-music2\\LetsMusic.Repository\\LetsMusic.Data.csproj",
         "projectName": "LetsMusic.Data",
-        "projectPath": "C:\\Users\\guilherme.leitao\\source\\repos\\lets-music\\LetsMusic.Repository\\LetsMusic.Data.csproj",
-        "packagesPath": "C:\\Users\\guilherme.leitao\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\guilherme.leitao\\source\\repos\\lets-music\\LetsMusic.Repository\\obj\\",
+        "projectPath": "C:\\Users\\guilh\\Source\\Repos\\lets-music2\\LetsMusic.Repository\\LetsMusic.Data.csproj",
+        "packagesPath": "C:\\Users\\guilh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\guilh\\Source\\Repos\\lets-music2\\LetsMusic.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\guilherme.leitao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\guilh\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -347,8 +355,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\guilherme.leitao\\source\\repos\\lets-music\\LetsMusic.Domain\\LetsMusic.Domain.csproj": {
-                "projectPath": "C:\\Users\\guilherme.leitao\\source\\repos\\lets-music\\LetsMusic.Domain\\LetsMusic.Domain.csproj"
+              "C:\\Users\\guilh\\Source\\Repos\\lets-music2\\LetsMusic.Domain\\LetsMusic.Domain.csproj": {
+                "projectPath": "C:\\Users\\guilh\\Source\\Repos\\lets-music2\\LetsMusic.Domain\\LetsMusic.Domain.csproj"
               }
             }
           }
@@ -388,7 +396,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -397,7 +406,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

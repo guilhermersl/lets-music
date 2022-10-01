@@ -4,11 +4,13 @@ using LetsMusic.Application.AlbumContext.Dto;
 using LetsMusic.Application.AlbumContext.Handler.Command;
 using LetsMusic.Application.AlbumContext.Handler.Query;
 using LetsMusic.Data;
+using Microsoft.AspNetCore.Authorization;
 
 namespace LetsMusic.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class AlbumController : ControllerBase
     {
         private readonly IMediator _mediator;

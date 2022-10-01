@@ -9,7 +9,8 @@ namespace LetsMusic.Application.ContaContext.Handler
                                   IRequestHandler<GetAllUsuarioQuery, GetAllUsuarioQueryResponse>,
                                   IRequestHandler<GetByIdUsuarioQuery, GetByIdUsuarioQueryResponse>,
                                   IRequestHandler<UpdateUsuarioCommand, UpdateUsuarioCommandResponse>,
-                                  IRequestHandler<DeleteUsuarioCommand, bool>
+                                  IRequestHandler<DeleteUsuarioCommand, bool>,
+                                  IRequestHandler<AutenticateUsuarioQuery, bool>
     {
         private readonly IUsuarioService _usuarioService;
 
@@ -45,6 +46,11 @@ namespace LetsMusic.Application.ContaContext.Handler
         public async Task<bool> Handle(DeleteUsuarioCommand request, CancellationToken cancellationToken)
         {
             return await _usuarioService.Delete(request.Id);
+        }
+
+        public async Task<bool> Handle(AutenticateUsuarioQuery request, CancellationToken cancellationToken)
+        {
+            return await _usuarioService.Autentique(request.Email, request.Senha);
         }
 
     }

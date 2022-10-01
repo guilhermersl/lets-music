@@ -3,11 +3,13 @@ using Microsoft.AspNetCore.Mvc;
 using LetsMusic.Application.AlbumContext.Dto;
 using LetsMusic.Application.AlbumContext.Handler.Command;
 using LetsMusic.Application.AlbumContext.Handler.Query;
+using Microsoft.AspNetCore.Authorization;
 
 namespace LetsMusic.Api.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
+    [Authorize]
     public class EstiloMusicalController : ControllerBase
     {
         private readonly IMediator _mediator;

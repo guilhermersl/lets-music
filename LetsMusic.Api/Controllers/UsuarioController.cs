@@ -3,11 +3,13 @@ using Microsoft.AspNetCore.Mvc;
 using LetsMusic.Application.ContaContext.Dto;
 using LetsMusic.Application.ContaContext.Handler.Command;
 using LetsMusic.Application.ContaContext.Handler.Query;
+using Microsoft.AspNetCore.Authorization;
 
 namespace LetsMusic.Api.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
+    [Authorize]
     public class UsuarioController : ControllerBase
     {
         private readonly IMediator _mediator;

@@ -69,5 +69,10 @@ namespace LetsMusic.Application.ContaContext.Service
 
             return true;
         }
+
+        public async Task<bool> Autentique(string email, string senha)
+        {
+            return await _usuarioRepository.Autentique(email, senha);
+        }
     }
 }

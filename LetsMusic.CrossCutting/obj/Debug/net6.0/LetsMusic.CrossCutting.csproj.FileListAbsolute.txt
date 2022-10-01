@@ -46,3 +46,15 @@ C:\Users\guilherme.leitao\Source\Repos\lets-music\LetsMusic.CrossCutting\obj\Deb
 C:\Users\guilherme.leitao\Source\Repos\lets-music\LetsMusic.CrossCutting\obj\Debug\net6.0\refint\LetsMusic.CrossCutting.dll
 C:\Users\guilherme.leitao\Source\Repos\lets-music\LetsMusic.CrossCutting\obj\Debug\net6.0\LetsMusic.CrossCutting.pdb
 C:\Users\guilherme.leitao\Source\Repos\lets-music\LetsMusic.CrossCutting\obj\Debug\net6.0\ref\LetsMusic.CrossCutting.dll
+C:\Users\guilh\source\repos\lets-music2\LetsMusic.CrossCutting\bin\Debug\net6.0\LetsMusic.CrossCutting.deps.json
+C:\Users\guilh\Source\Repos\lets-music2\LetsMusic.CrossCutting\bin\Debug\net6.0\LetsMusic.CrossCutting.dll
+C:\Users\guilh\source\repos\lets-music2\LetsMusic.CrossCutting\bin\Debug\net6.0\ref\LetsMusic.CrossCutting.dll
+C:\Users\guilh\Source\Repos\lets-music2\LetsMusic.CrossCutting\bin\Debug\net6.0\LetsMusic.CrossCutting.pdb
+C:\Users\guilh\Source\Repos\lets-music2\LetsMusic.CrossCutting\obj\Debug\net6.0\LetsMusic.CrossCutting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\guilh\Source\Repos\lets-music2\LetsMusic.CrossCutting\obj\Debug\net6.0\LetsMusic.CrossCutting.AssemblyInfoInputs.cache
+C:\Users\guilh\Source\Repos\lets-music2\LetsMusic.CrossCutting\obj\Debug\net6.0\LetsMusic.CrossCutting.AssemblyInfo.cs
+C:\Users\guilh\Source\Repos\lets-music2\LetsMusic.CrossCutting\obj\Debug\net6.0\LetsMusic.CrossCutting.csproj.CoreCompileInputs.cache
+C:\Users\guilh\Source\Repos\lets-music2\LetsMusic.CrossCutting\obj\Debug\net6.0\LetsMusic.CrossCutting.dll
+C:\Users\guilh\Source\Repos\lets-music2\LetsMusic.CrossCutting\obj\Debug\net6.0\ref\LetsMusic.CrossCutting.dll
+C:\Users\guilh\Source\Repos\lets-music2\LetsMusic.CrossCutting\obj\Debug\net6.0\LetsMusic.CrossCutting.pdb
+C:\Users\guilh\Source\Repos\lets-music2\LetsMusic.CrossCutting\obj\Debug\net6.0\LetsMusic.CrossCutting.csproj.AssemblyReference.cache
